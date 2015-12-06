@@ -4,6 +4,7 @@
 
 #Deployment Plan
 
-*Save all changes on your local repo.
-*Commit the changes. In the terminal, enter git add -A and then git commit -m 'commit message here'.
-*Push the changes to the server. Enter git push LiveServer master.
+* Save all changes on your local repo.
+* Commit the changes. In the terminal, enter git add -A and then git commit -m 'commit message here'.
+* Push the changes to the server. Enter git push LiveServer master.
+* [View My Portfolio](https://www.github.com)
