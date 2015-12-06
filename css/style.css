@@ -1,0 +1,81 @@
+/*==== CSS STYLING=====*/
+
+/*
+1. Main Content
+2. Navigation
+3. Gallery
+4. Footer
+5. Responsive
+
+Colors:
+background:
+#ffffff
+text:
+#222222
+alternative:
+#A1C1BE
+#59554E
+#F3F4E5
+#E2E3D9
+*/
+
+/*=== @Fontface ===*/
+
+
+body {
+    font-size: 14px;
+}
+.page-container {
+    padding-top: 5%;
+}
+.text-center {
+    padding-top: 20px;
+}
+.col-xs-12 {
+    background-color: #fff;
+}
+#sidebar {
+    height: 100%;
+    padding-right: 0;
+    padding-top: 2%;
+}
+#sidebar .nav {
+    width: 95%;
+}
+
+
+
+/* 5. RESPONSIVE */
+
+/* collapsed sidebar styles */
+@media screen and (max-width: 767px) {
+    .row-offcanvas {
+        position: relative;
+        -webkit-transition: all 0.25s ease-out;
+        -moz-transition: all 0.25s ease-out;
+        transition: all 0.25s ease-out;
+    }
+    .row-offcanvas-right
+    .sidebar-offcanvas {
+        right: -41.6%;
+    }
+
+    .row-offcanvas-left
+    .sidebar-offcanvas {
+        left: -41.6%;
+    }
+    .row-offcanvas-right.active {
+        right: 41.6%;
+    }
+    .row-offcanvas-left.active {
+        left: 41.6%;
+    }
+    .sidebar-offcanvas {
+        position: absolute;
+        top: 0;
+        width: 41.6%;
+    }
+    #sidebar {
+        padding-top:0;
+    }
+}
