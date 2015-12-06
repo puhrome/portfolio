@@ -1,8 +1,8 @@
 
 #My Portfolio
-####My Portfolio using Bootstrap framework for DWP
+######My Portfolio using Bootstrap framework for DWP
 
-#Deployment Plan
+###Deployment Plan
 
 * Save all changes on your local repo.
 * Commit the changes. In the terminal, enter git add -A and then git commit -m 'commit message here'.
